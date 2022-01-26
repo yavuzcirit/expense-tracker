@@ -1,8 +1,10 @@
-import React from "react";
+import React,{ useState } from "react";
 import Expenses from "./components/expenses/Expenses"
 import NewExpense from "./components/NewExpense/NewExpense";
 
 const App = () => {
+ 
+
   const expenses = [
     {
       id: 'e1',
