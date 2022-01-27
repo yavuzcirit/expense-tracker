@@ -6,8 +6,7 @@ import './ExpenseItem.css'
 
 
 const ExpenseItem= (props) => {
-  const [title,setTitle] = useState(props.title)
-
+  
   return (
   <Card className="expense-item">
     <ExpenseDate date={props.date}/>
